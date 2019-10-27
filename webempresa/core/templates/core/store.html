@@ -1,0 +1,53 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Visítanos{% endblock %}
+
+{% block content %}
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-5">
+            <span class="section-heading-upper">Mucho amor te está esperando</span>
+            <span class="section-heading-lower">Contactanos &#x1F436;</span>
+          </h2>
+          <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+            <li class="list-unstyled-item list-hours-item d-flex">
+              <img src="{% static 'core/img/fblogo.png' %}" alt="">
+              Facebook
+              <span class="ml-auto">/huellitasparasiempre</span>
+            </li>
+            <li class="list-unstyled-item list-hours-item d-flex">
+              <img src="{% static 'core/img/inlogo.png' %}" alt="">
+              Instagram
+              <span class="ml-auto">@huellitasparasiempre</span>
+            </li>
+            <li class="list-unstyled-item list-hours-item d-flex">
+              <img src="{% static 'core/img/ytlogo.png' %}" alt="">
+              Youtube
+              <span class="ml-auto">huellitasparasiempre</span>
+            </li>
+          </ul>
+          <p class="address mb-5">
+            <em>
+              <strong>Bogota, Colombia &#x1F1E8;&#x1F1F4;</strong>
+              <br>
+              <div class="col-6 mx-auto">
+                <img src="{% static 'core/img/acerca2.jpg' %}" class="img-fluid" alt="">
+              </div>
+            </em>
+          </p>
+          <h2 class="section-heading mb-5">
+            <span class="section-heading-lower">(319) 4207049</span>
+            <span class="section-heading-upper">Telefono &#x1F4F2; </span>
+          </h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

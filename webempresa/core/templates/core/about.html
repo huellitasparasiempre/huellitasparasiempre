@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Amor Indicional Por los Animales </span>
+              <span class="section-heading-lower">Nuestra historia</span>
+              <div class="row">
+                  <img src="{% static 'core/img/acerca1.jpg' %}" class="img-fluid" alt="">
+              </div>
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis velit dolor, tempus egestas dignissim at, placerat vel nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu consequat mi, at venenatis quam. Donec suscipit pellentesque finibus. Curabitur finibus justo vitae bibendum faucibus. Nulla facilisis semper tellus, non elementum ligula. Nam mattis eros et pharetra porta. </p>
+            <p>In in turpis vitae augue pulvinar auctor sed sed nibh. Etiam magna quam, porttitor et lacus vitae, placerat iaculis velit. Suspendisse bibendum dolor purus, eu molestie turpis tempus et. Donec lacinia placerat turpis, tristique fermentum sapien bibendum sed. Vivamus blandit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
